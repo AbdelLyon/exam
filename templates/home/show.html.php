@@ -64,7 +64,7 @@
                         <p><?= $avi->getContent() ?></p>
                      </div>
                      <form class="d-flex justify-content-end" method="POST" action="/?type=avis&action=delete">
-                        <button id="link-deleteComment" class="btn" name="id" value="<?= $velo->getId() ?>">
+                        <button id="link-deleteComment" class="btn" name="id" value="<?= $avi->getId() ?>">
                            <i class="far fa-minus-square text-danger fs-4"></i>
                            <p class="link-deleteComment hidden">Suprimer</p>
                         </button>
